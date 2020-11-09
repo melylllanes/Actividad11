@@ -23,7 +23,7 @@ public class Main {
         while (!resValida) {
 
             System.out.println("1. Circulo");
-            System.out.println("2. Triangulo");
+            System.out.println("2. Triangulo Isosceles");
             System.out.println("3. Cuadrado");
             System.out.println("Escoge una figura:");
             figura = input.nextLine();
@@ -76,7 +76,7 @@ public class Main {
                         System.out.println("-----------------------------------------------------------------------");
 
                     } else if ("2".equals(figura)) {
-                        System.out.println("Triangulo");
+                        System.out.println("Triangulo Isosceles");
                         System.out.println("Introduce el valor de la base:");
                         param1 = input.nextFloat();
                         System.out.println("Introduce el valor del la altura:");
