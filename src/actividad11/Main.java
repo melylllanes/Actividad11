@@ -11,9 +11,9 @@ import java.util.Scanner;
  *
  * @author melissa.a.lopez
  */
-public class Actividad11 {
+public class Main {
 
-    public static void showMenu() {
+    public static void verMenu() {
 
         Scanner input = new Scanner(System.in);
         float param1, param2;
@@ -140,7 +140,7 @@ public class Actividad11 {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        showMenu();
+        verMenu();
     }
 
 }
